@@ -1,0 +1,97 @@
+/* Confluence Dark theme. Based on remixed.kaos.st and DarkReader custom CSS.
+Optimized via CSSO https://github.com/css/csso-cli */
+@import url("//remixed.kaos.st/confluence.css");
+@import url("//raw.githubusercontent.com/azhinu/confluence-dark-theme/master/confluence-darkreader.css");
+
+html {
+  font-size: 16px;
+}
+
+#footer {
+  margin-left: unset !important;
+}
+
+#main {
+  left: -7%;
+  border: none;
+}
+
+#main-header {
+  right: unset !important;
+}
+
+#full-height-container {
+  background-color: rgb(40 43 54) !important;
+}
+
+#footer-logo {
+  background-color: rgb(40 43 54);
+}
+
+.ia-splitter {
+  max-width: 100rem;
+  margin: auto;
+}
+
+.ia-fixed-sidebar {
+  min-width: 5%;
+  width: 15% !important;
+  font-size: min(2vh, 110%);
+}
+
+.plugin_pagetree_children_span a {
+  white-space: unset;
+}
+
+.expand-collapse-trigger {
+  display: none;
+}
+
+.ia-splitter-handle {
+  display: none;
+}
+
+.wiki-content table.tablesorter>thead>tr>th {
+  background: #404040 !important;
+}
+
+#savebar-container .aui-toolbar {
+  border: none;
+}
+
+body.mceContentBody {
+  background: var(--darkreader-bg--aui-body-background);
+  border: none;
+}
+
+#rte-toolbar {
+  border-bottom: none !important;
+  background-color: unset !important;
+}
+
+#toolbar #format-dropdown .format-p a, #toolbar #format-dropdown .format-pre a, #toolbar #format-dropdown .format-blockquote a {
+  color: unset !important;
+}
+
+.aui-toolbar .aui-dd-parent a.aui-dd-trigger, .aui-toolbar .toolbar-group .toolbar-trigger {
+  color: rgb(200, 195, 188) !important;
+}
+
+.contenteditor #main, #content.edit, .contenteditor #main .edit form, #wysiwyg, #preview, #previewArea {
+  max-width: 100rem;
+  margin: auto;
+  left: unset;
+}
+
+table.aui>tbody>tr, table.aui>tfoot>tr {
+  color: var(--darkreader-text--aui-table-row-text-color) !important;
+  background: var(--darkreader-bg--aui-table-row-bg-color)
+}
+
+.panel h1, .panel h2, .panelMacro h1, .panelMacro h2, .wiki-content h1, .wiki-content h2 {
+  border-bottom-color: #686e74
+}
+
+.help-panel-header {
+    background-color: var(--darkreader-border--aui-body-text);
+}
