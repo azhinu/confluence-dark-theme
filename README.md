@@ -21,7 +21,7 @@ This is combination of [Atlassian remixed theme by ESSENTIAL KAOS](https://githu
 ## Userscript
 
 1. Install [ViolentMonkey](https://violentmonkey.github.io/), [Firemonkey](https://addons.mozilla.org/firefox/addon/firemonkey/) or another userscript manager.
-2. Add [`userscript.js`](https://raw.githubusercontent.com/azhinu/confluence-dark-theme/master/confluence-dark-min.css) from this repo to userscript manager.
+2. Add [`userscript.js`](https://raw.githubusercontent.com/azhinu/confluence-dark-theme/master/userscript.js) from this repo to userscript manager.
 3. Add your Confluence domain to custom match rules.
 
 ## Compatibility
